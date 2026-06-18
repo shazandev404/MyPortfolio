@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHAZAN.DEV </title>
+  <link rel="icon" type="image/png" href="img/Logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inter:wght@400;500;600&family=Sacramento&family=Syne:wght@700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header" id="header">
+    <a href="#home" class="logo">
+      <span class="logo-line">SHAZAN</span>
+      <span class="logo-line">DEV</span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <div class="nav-bubble" id="nav-bubble"></div>
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#project" class="nav-link">Project</a>
+      <a href="#service" class="nav-link">Service</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn-hire" aria-label="Hire Me">
+      <svg class="btn-rocket" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4.5 16.5c-1.5 1.25-2.5 3.5-2.5 3.5s2.25-1 3.5-2.5" />
+        <path d="M12 2C7.5 2 7 5 7 10.5c0 1.25-.5 2.5-1.5 3.5L4 15.5h16l-1.5-1.5c-1-1-1.5-2.25-1.5-3.5C17 5 16.5 2 12 2z" />
+        <path d="M12 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+        <path d="M12 16v6" />
+        <path d="M9 22h6" />
+      </svg>
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-left">
+        <a href="#contact" class="btn-connect">
+          Connect Shazan
+          <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
+          </svg>
+        </a>
+        <div class="social-bubble-group">
+          <div class="social-bubble-row">
+            <a href="https://www.linkedin.com/in/shazan-dev/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+              class="bubble-link linkedin">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+            <a href="https://github.com/shazandev404" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
+              class="bubble-link github">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/mohammed_shazan404/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
+              class="bubble-link instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+              </svg>
+            </a>
+            <a href="https://www.behance.net/mohamedshazan1" target="_blank" rel="noopener noreferrer" aria-label="Behance"
+              class="bubble-link behance">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M22 9.83h-3.98v.96h3.98v-.96zm-4.3 2.1c-.26-.26-.64-.39-1.1-.39-.33 0-.58.07-.79.18-.21.11-.37.26-.5.4-.13.15-.22.33-.26.5-.04.18-.08.33-.08.47h3.2c-.07-.53-.25-.89-.47-1.16zm-5.63-2.61c.46 0 .89.04 1.28.14.39.1.72.25.99.43.27.18.5.43.64.75.14.32.22.71.22 1.14 0 .5-.11.92-.36 1.24-.25.32-.57.61-1 .82.6.18 1.07.5 1.35.92.28.42.46.96.46 1.56 0 .5-.1 1-.29 1.36a2.3 2.3 0 0 1-.78.89c-.32.21-.71.39-1.14.5a5.3 5.3 0 0 1-1.28.17H0v-10h6.07zm-.29 3.98c.39 0 .71-.1.96-.29.25-.18.36-.5.36-.89 0-.21-.04-.42-.11-.56a1 1 0 0 0-.32-.36 1.8 1.8 0 0 0-.46-.18c-.18-.03-.36-.03-.57-.03H2.17v2.31h2.2v-.004zm.1 4.19c.22 0 .43-.03.61-.07a1.8 1.8 0 0 0 .5-.22c.14-.11.25-.22.35-.39.1-.18.14-.39.14-.64 0-.5-.14-.85-.43-1.1-.28-.22-.67-.32-1.13-.32H2.17V17.5h2.31zm6.86-.03c.43.43 1.28.43 1.28.43.39 0 .75-.11 1.03-.29q.43-.32.53-.64h1.74c-.29.85-.71 1.46-1.28 1.85a4 4 0 0 1-2.06.56 4.1 4.1 0 0 1-1.53-.28 2.8 2.8 0 0 1-1.14-.78c-.28-.29-.53-.68-.71-1.17-.18-.46-.25-.96-.25-1.53 0-.53.07-1.03.25-1.49.18-.46.43-.85.75-1.21.32-.32.71-.6 1.14-.78a4 4 0 0 1 1.49-.29c.61 0 1.14.1 1.6.36.46.25.82.53 1.1.96.29.39.5.85.64 1.35.07.5.11 1 .07 1.56h-5.15c0 .58.21 1.11.5 1.4z" />
+              </svg>
+            </a>
+          </div>
+          <div class="social-bubble-row">
+            <a href="tel:+94715297304" aria-label="Phone" class="bubble-link phone">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              <span class="bubble-text">+94 71 5297 304</span>
+            </a>
+            <a href="mailto:shazan.dev404@gmail.com" aria-label="Email" class="bubble-link email">
+              <svg class="small-mail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              <span class="bubble-text">shazan.dev404@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-center">
+        <div class="hero-bg-text" aria-hidden="true">
+          <span class="hero-bg-line">SHAZAN</span>
+          <span class="hero-bg-line"></span>
+        </div>
+        <img src="img/1-Photoroom.png" alt="Shazan Dev - Software Engineer" class="hero-image">
+        <div class="role-badge">
+          <span class="role-bar"></span>
+          <span class="role-text">SOFTWARE ENGINEER</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <blockquote class="hero-quote">
+          <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+          <p>Ambitious by mindset, creative by nature, and driven by results</p>
+          <div class="quote-footer">
+            <span class="quote-line"></span>
+            <span class="quote-location">Mohammed Shazan</span>
+          </div>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack Horizontal Scroller Section -->
+  <div class="tech-scroller-horizontal">
+    <!-- Row 1: Scrolls Left -->
+    <div class="horizontal-track-wrapper scroll-left">
+      <div class="horizontal-marquee-track">
+        <div class="horizontal-marquee-group">
+          <span class="tech-badge js">JavaScript</span>
+          <span class="tech-badge ts">TypeScript</span>
+          <span class="tech-badge react">React.js</span>
+          <span class="tech-badge next">Next.js</span>
+          <span class="tech-badge node">Node.js</span>
+          <span class="tech-badge express">Express.js</span>
+          <span class="tech-badge flask">Flask</span>
+          <span class="tech-badge php">PHP</span>
+          <span class="tech-badge mysql">MySQL</span>
+          <span class="tech-badge postgresql">PostgreSQL</span>
+          <span class="tech-badge mongodb">MongoDB</span>
+        </div>
+        <!-- Duplicate for Infinite Scroll -->
+        <div class="horizontal-marquee-group" aria-hidden="true">
+          <span class="tech-badge js">JavaScript</span>
+          <span class="tech-badge ts">TypeScript</span>
+          <span class="tech-badge react">React.js</span>
+          <span class="tech-badge next">Next.js</span>
+          <span class="tech-badge node">Node.js</span>
+          <span class="tech-badge express">Express.js</span>
+          <span class="tech-badge flask">Flask</span>
+          <span class="tech-badge php">PHP</span>
+          <span class="tech-badge mysql">MySQL</span>
+          <span class="tech-badge postgresql">PostgreSQL</span>
+          <span class="tech-badge mongodb">MongoDB</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 2: Scrolls Right -->
+    <div class="horizontal-track-wrapper scroll-right">
+      <div class="horizontal-marquee-track">
+        <div class="horizontal-marquee-group">
+          <span class="tech-badge n8n">n8n</span>
+          <span class="tech-badge airtable">Airtable</span>
+          <span class="tech-badge wordpress">WordPress</span>
+          <span class="tech-badge aws">AWS</span>
+          <span class="tech-badge tensorflow">TensorFlow</span>
+          <span class="tech-badge pytorch">PyTorch</span>
+          <span class="tech-badge scikit">Scikit-learn</span>
+          <span class="tech-badge pandas">Pandas</span>
+          <span class="tech-badge numpy">NumPy</span>
+          <span class="tech-badge docker">Docker</span>
+          <span class="tech-badge git">Git</span>
+          <span class="tech-badge gcp">Google Cloud</span>
+          <span class="tech-badge figma">Figma</span>
+        </div>
+        <!-- Duplicate for Infinite Scroll -->
+        <div class="horizontal-marquee-group" aria-hidden="true">
+          <span class="tech-badge n8n">n8n</span>
+          <span class="tech-badge airtable">Airtable</span>
+          <span class="tech-badge wordpress">WordPress</span>
+          <span class="tech-badge aws">AWS</span>
+          <span class="tech-badge tensorflow">TensorFlow</span>
+          <span class="tech-badge pytorch">PyTorch</span>
+          <span class="tech-badge scikit">Scikit-learn</span>
+          <span class="tech-badge pandas">Pandas</span>
+          <span class="tech-badge numpy">NumPy</span>
+          <span class="tech-badge docker">Docker</span>
+          <span class="tech-badge git">Git</span>
+          <span class="tech-badge gcp">Google Cloud</span>
+          <span class="tech-badge figma">Figma</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title">Who AM I ?</h2>
+      <div class="about-grid">
+
+        <!-- LEFT: Profile Card -->
+        <div class="about-card">
+          <div class="about-card-img-wrap">
+            <img src="img/Card.jpg" alt="Shazan Dev" class="about-card-img">
+            <div class="about-card-glow"></div>
+          </div>
+          <div class="about-card-stats">
+            <div class="stat-card">
+              
+            </div>
+            <div class="stat-card">
+              
+            </div>
+            <div class="stat-card">
+            
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Bio + Education -->
+        <div class="about-right">
+          <div class="about-text">
+            <p>I'm not just building software I'm building a future driven by innovation, creativity, and continuous growth. From crafting seamless user experiences to developing robust backend systems, I approach every challenge with determination and attention to detail. My mission is simple: create meaningful digital solutions that leave a lasting impact.</p>
+            
+            
+            <a href="./asset/Resume.pdf" class="btn-cv" aria-label="Download CV" download>
+              <span>Download CV</span>
+              <svg class="cv-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Education Journey -->
+          <div class="education">
+            <h3 class="education-title">Education </h3>
+            <div class="edu-timeline">
+
+              <div class="edu-item">
+                <div class="edu-dot"></div>
+                <div class="edu-content">
+                  <p class="edu-degree">BSc Software Engineering — London Metropolitan University</p>
+                  <p class="edu-year">2025 — 2026</p>
+                </div>
+              </div>
+
+              <div class="edu-item">
+                <div class="edu-dot"></div>
+                <div class="edu-content">
+                  <p class="edu-degree">Higher National Diploma — Esoft Metro Campus</p>
+                  <p class="edu-year">2022 — 2024</p>
+                </div>
+              </div>
+
+              <div class="edu-item">
+                <div class="edu-dot"></div>
+                <div class="edu-content">
+                  <p class="edu-degree">Diploma in ICT — Esoft Metro Campus</p>
+                  <p class="edu-year">2018 — 2019</p>
+                </div>
+              </div>
+
+            
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section projects" id="project">
+    <div class="container">
+
+      <!-- Header row -->
+      <div class="projects-header">
+        <div>
+          <p class="projects-label">SELECTED WORK</p>
+          <h2 class="section-title" style="margin-bottom:0;text-align:left;">Projects</h2>
+        </div>
+        <div class="showcase-counter">
+          <span id="showcase-current">01</span>
+          <span class="showcase-counter-sep">/</span>
+          <span id="showcase-total">04</span>
+        </div>
+      </div>
+
+      <!-- Showcase container -->
+      <div class="showcase-container" id="showcase-container">
+
+        <!-- Slides -->
+        <div class="showcase-slides" id="showcase-slides">
+
+          <!-- Slide 1 -->
+          <div class="showcase-slide active" data-index="0">
+            <div class="showcase-image">
+              <img src="img/projects/Skilllink.png" alt="SkillLink Platform" loading="lazy">
+            </div>
+            <div class="showcase-info">
+              <h3 class="showcase-title">SkillLink</h3>
+              <p class="showcase-desc">Developed a full-stack skilled-worker matching platform enabling users to connect with verified professionals through advanced search, worker verification, ratings, and service request management, supported by a centralized administration dashboard..</p>
+              <div class="showcase-tags">
+                <span class="showcase-tag">React</span>
+                <span class="showcase-tag">TypeScript </span>
+                <span class="showcase-tag">Supabase</span>
+                <span class="showcase-tag">PostgreSQL</span>
+                <span class="showcase-tag">Gemini API</span>
+                
+              </div>
+              <div class="showcase-links">
+                <a href="https://github.com/shazandev404/SkillLink-Skill-Worker-Platform" class="showcase-link" aria-label="View on GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+                <a href="https://ms-skilllink.netlify.app/" class="showcase-link" aria-label="Live Demo">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="showcase-slide" data-index="1">
+            <div class="showcase-image">
+              <img src="img/projects/ISBN.png" alt="ISDN" loading="lazy">
+            </div>
+            <div class="showcase-info">
+              <h3 class="showcase-title">ISDN(IslandLink Sales Distribution Network)</h3>
+              <p class="showcase-desc">Developed a distribution management system that centralized order processing, inventory management, delivery tracking, customer notifications, and administrative operations, improving visibility and efficiency across the distribution network.</p>
+              <div class="showcase-tags">
+                <span class="showcase-tag">HTML, CSS, JS</span>
+                <span class="showcase-tag">Node.js, Express.js</span>
+                <span class="showcase-tag">Postgre SQL</span>
+              </div>
+              <div class="showcase-links">
+                <a href="https://github.com/shazandev404/ISDN-ASE" class="showcase-link" aria-label="View on GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+                 <!--<a href="#" class="showcase-link" aria-label="Live Demo">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>-->
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="showcase-slide" data-index="2">
+            <div class="showcase-image">
+              <img src="img/projects/Chatbot.png" alt="ChatBot" loading="lazy">
+            </div>
+            <div class="showcase-info">
+              <h3 class="showcase-title">Banking Assistant(Chat Bot)</h3>
+              <p class="showcase-desc">A virtual banking assistant designed to streamline customer support by providing real-time responses to account-related queries, card services, password assistance, and general banking information through a conversational interface.</p>
+              <div class="showcase-tags">
+                <span class="showcase-tag">Python/Flask</span>
+                <span class="showcase-tag">HTML/CSS/JavaScript</span>
+                <span class="showcase-tag">SQLite</span>
+                <span class="showcase-tag">Sentence Transformers</span>
+                <span class="showcase-tag">FAISS</span>
+                <span class="showcase-tag">scikit-learn</span>
+                <span class="showcase-tag">Text Blob</span>
+                <span class="showcase-tag">NumPy</span>
+              </div>
+             <div class="showcase-links">
+                <!--<a href="#" class="showcase-link" aria-label="View on GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+                <a href="#" class="showcase-link" aria-label="Live Demo">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>-->
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="showcase-slide" data-index="3">
+            <div class="showcase-image">
+              <img src="img/projects/Unimanage.png" alt="Unimanage" loading="lazy">
+            </div>
+            <div class="showcase-info">
+              <h3 class="showcase-title">UniManage</h3>
+              <p class="showcase-desc">A full-stack education management system designed to digitize university operations, enabling efficient management of students, courses, faculty, academic records, and institutional resources through a unified platform.</p>
+              <div class="showcase-tags">
+                <span class="showcase-tag">ASP.NET Core MVC</span>
+                <span class="showcase-tag">C#</span>
+                <span class="showcase-tag">Entity Framework Core</span>
+                <span class="showcase-tag">HTML/CSS/JavaScript</span>
+                <span class="showcase-tag">Razor Views </span>
+                <span class="showcase-tag">Bootstrap 5</span>
+              </div>
+              <div class="showcase-links">
+                <!--<a href="#" class="showcase-link" aria-label="View on GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+                <a href="#" class="showcase-link" aria-label="Live Demo">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="showcase-slide" data-index="3">
+            <div class="showcase-image">
+              <img src="img/projects/ecommerce.png" alt="Ecommerce" loading="lazy">
+            </div>
+            <div class="showcase-info">
+              <h3 class="showcase-title">Ecommerce UI</h3>
+              <p class="showcase-desc">A visually engaging food delivery mobile interface designed to provide a smooth ordering journey through clean layouts, personalized recommendations, category-based browsing, and attractive product presentation.</p>
+              <div class="showcase-tags">
+                <span class="showcase-tag">UI & UX</span>
+                <span class="showcase-tag">Figma</span>
+                
+              </div>
+              <div class="showcase-links">
+               <!-- <a href="#" class="showcase-link" aria-label="View on GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+                <a href="#" class="showcase-link" aria-label="Live Demo">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>-->
+              </div>
+            </div>
+          </div>
+
+      
+
+        </div>
+
+        <!-- Navigation arrows -->
+        <button class="showcase-arrow showcase-prev" id="showcase-prev" aria-label="Previous project">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 12H5"/>
+            <path d="m12 19-7-7 7-7"/>
+          </svg>
+        </button>
+        <button class="showcase-arrow showcase-next" id="showcase-next" aria-label="Next project">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+        </button>
+
+      </div>
+
+      <!-- Dot indicators -->
+      <div class="showcase-dots" id="showcase-dots">
+        <button class="showcase-dot active" data-dot="0" aria-label="Go to project 1"></button>
+        <button class="showcase-dot" data-dot="1" aria-label="Go to project 2"></button>
+        <button class="showcase-dot" data-dot="2" aria-label="Go to project 3"></button>
+        <button class="showcase-dot" data-dot="3" aria-label="Go to project 4"></button>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section services" id="service">
+    <div class="container">
+      <h2 class="section-title">Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+              <path d="M3 9h18M9 21V9" />
+            </svg>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>User-centered design with wireframes, prototypes, and pixel-perfect interfaces that delight users.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+          </div>
+          <h3>Frontend Development</h3>
+          <p>Responsive, performant web applications built with modern frameworks and best practices.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <ellipse cx="12" cy="5" rx="9" ry="3" />
+              <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+            </svg>
+          </div>
+          <h3>Full-Stack Solutions</h3>
+          <p>End-to-end product development from database architecture to deployment and scaling.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="container">
+      
+      <!-- Connect Card Container -->
+      <div class="connect-card">
+        
+        <p class="connect-label">GET IN TOUCH</p>
+        <h2 class="connect-title">Let's Connect</h2>
+        <p class="connect-desc">Whether you're building a startup, scaling a business, or launching your next big idea, I'd love to be part of the journey</p>
+        
+        <!-- Social Pills Row -->
+        <div class="connect-socials">
+          
+          <a href="https://www.linkedin.com/in/shazan-dev" target="_blank" rel="noopener noreferrer" class="connect-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+
+          <a href="https://github.com/shazandev404" target="_blank" rel="noopener noreferrer" class="connect-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+            <span>GitHub</span>
+          </a>
+
+          <a href="mailto:shazan.dev404@gmail.com" class="connect-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            <span>Email</span>
+          </a>
+
+        </div>
+        
+        <!-- Divider -->
+        <hr class="connect-divider">
+        
+        <!-- Tagline quote inside card -->
+        <p class="connect-footer">Dream big. Build smart. Deliver excellence.</p>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <a href="#home" class="logo">
+      <span class="logo-line">SHAZAN</span>
+      <span class="logo-line">DEV</span>
+    </a>
+    <p class="copyright">&copy; 2024 SHAZAN DEV. Built with precision.</p>
+    <div class="footer-links">
+      <a href="https://github.com/shazandev404" target="_blank" rel="noopener noreferrer">Github</a>
+      <a href="https://www.linkedin.com/in/shazan-dev" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+     <!-- <a href="https://github.com" target="_blank" rel="noopener noreferrer">Source Code</a>-->
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
